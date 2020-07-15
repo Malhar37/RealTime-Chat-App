@@ -1,0 +1,53 @@
+body
+{
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+.form-signin 
+{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+}
+
+@media (max-width: 900px)
+{
+    .form-signin
+    {
+        left: 10px;
+        right: 10px;
+    }
+
+}
+.form-control
+{
+    
+    box-sizing: border-box;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+}
+ 
+.form-signin .form-control .top:focus {
+    z-index: 999;
+  }
+.top
+{
+    margin-bottom: 10px;
+    /* border-bottom-left-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+    
+}
+.bottom
+{
+    margin-bottom: 10px;   
+    /* border-radius: 1px; */
+}
